@@ -1,1 +1,1 @@
-db.products.find({}, {name: 1, v: 1})
+db.products.find({ }, { name: 1, v: 1 })
