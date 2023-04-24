@@ -1,1 +1,1 @@
-db.products.find({}, { name: 1, v: 1, _id: false  }).sort({ v: 1 });
+db.products.find({}, { nome: 1, v: 1, _id: false  }).sort({ v: 1 });
