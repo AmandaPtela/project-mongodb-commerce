@@ -1,1 +1,1 @@
-db.products.find({ v: { $min: { v } } }, { name: 1, v: 1 });
+db.products.find({ vendidos: { $min: { vendidos } } }, { name: 1, vendidos: 1 });
