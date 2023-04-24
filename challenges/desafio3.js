@@ -1,1 +1,1 @@
-db.products.find({ vendidos: { $min: { vendidos } } }, { name: 1, vendidos: 1 });
+db.produtos.find({ }, { name: 1, vendidos: 1 }).sort({ vendidos: - 1 }).limit(1);
